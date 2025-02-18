@@ -5,7 +5,7 @@ const app = express();
 const port = process.env.PORT || 5000; // Use environment variable or default port 5000
 
 app.use(cors({
-  origin: 'http://localhost:3000' // Replace with your React app's port
+  origin: 'https://frontend-cglx.onrender.com' // Replace with your React app's port
 }));
 
 // MongoDB connection string (replace with your Atlas details)
